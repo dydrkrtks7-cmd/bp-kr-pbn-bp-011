@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>글 목록 (2/2) · kr-pbn-bp-011</title>
+  <meta name="description" content="kr-pbn-bp-011에 올라온 글 목록입니다.">
+  <link rel="canonical" href="https://daegu-web-marketing.pbn-builder.xyz/posts-2.html">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <style>
+ /* CSS Reset & Variables */
+ :root {
+ --bg-color: #0a0a0a;
+ --text-main: #f0f0f0;
+ --text-muted: #888888;
+ --accent-gold: #c5a059;
+ --accent-gold-dim: #8a703e;
+ --border-color: #333333;
+ --font-serif: 'Playfair Display', 'Noto Serif KR', serif;
+ --font-sans: 'Inter', 'Noto Sans KR', sans-serif;
+ --spacing-unit: 1.5rem;
+ }
+ * { margin: 0; padding: 0; box-sizing: border-box; }
+ body {
+ background-color: var(--bg-color);
+ color: var(--text-main);
+ font-family: var(--font-sans);
+ line-height: 1.6;
+ -webkit-font-smoothing: antialiased;
+ }
+ a { text-decoration: none; color: inherit; transition: color 0.3s ease; }
+ a:hover { color: var(--accent-gold); }
+ 
+ /* Layout & Typography */
+ .container {
+ max-width: 1024px;
+ margin: 0 auto;
+ padding: 0 var(--spacing-unit);
+ }
+ h1, h2, h3 { font-family: var(--font-serif); font-weight: 700; letter-spacing: -0.02em; }
+ h1 { font-size: clamp(2.5rem, 5vw, 4rem); line-height: 1.1; margin-bottom: 2rem; color: var(--accent-gold); }
+ h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); margin-bottom: 1.5rem; border-bottom: 1px solid var(--border-color); padding-bottom: 0.5rem; }
+ h3 { font-size: 1.5rem; margin-bottom: 1rem; color: var(--text-main); }
+ p { margin-bottom: 1.5rem; font-size: 1.1rem; color: var(--text-muted); }
+ .drop-cap::first-letter {
+ float: left;
+ font-family: var(--font-serif);
+ font-size: 4rem;
+ line-height: 0.8;
+ padding-right: 0.5rem;
+ color: var(--accent-gold);
+ }
+
+ /* Header & Nav */
+ header {
+ padding: 2rem 0;
+ border-bottom: 1px solid var(--border-color);
+ margin-bottom: 4rem;
+ }
+ .nav-row {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ }
+ .logo { font-family: var(--font-serif); font-size: 1.5rem; font-weight: bold; color: var(--text-main); }
+ .logo span { color: var(--accent-gold); }
+ nav ul { list-style: none; display: flex; gap: 2rem; }
+ nav a { font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.05em; }
+ 
+ /* Content Sections */
+ .editorial-section { margin-bottom: 6rem; }
+ .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; }
+ .card {
+ background: #111;
+ padding: 2rem;
+ border: 1px solid var(--border-color);
+ transition: transform 0.3s ease, border-color 0.3s ease;
+ }
+ .card:hover { transform: translateY(-5px); border-color: var(--accent-gold-dim); }
+ .card h3 { color: var(--accent-gold); font-size: 1.25rem; margin-bottom: 1rem; }
+ .highlight-box {
+ border-left: 4px solid var(--accent-gold);
+ padding-left: 2rem;
+ margin: 3rem 0;
+ font-style: italic;
+ color: var(--text-main);
+ }
+ 
+ /* FAQ */
+ .faq-item { border-bottom: 1px solid var(--border-color); padding: 1.5rem 0; }
+ .faq-question { font-weight: bold; color: var(--text-main); cursor: pointer; display: flex; justify-content: space-between; }
+ .faq-answer { margin-top: 1rem; color: var(--text-muted); display: none; }
+ .faq-item.active .faq-answer { display: block; }
+ .faq-item.active .faq-question { color: var(--accent-gold); }
+
+ /* Footer */
+ footer {
+ border-top: 1px solid var(--border-color);
+ padding: 4rem 0;
+ margin-top: 6rem;
+ text-align: center;
+ font-size: 0.9rem;
+ color: var(--text-muted);
+ }
+
+ @media (max-width: 768px) {
+ .grid-2 { grid-template-columns: 1fr; gap: 2rem; }
+ nav ul { display: none; } /* Mobile Menu Placeholder */
+ .mobile-menu-btn { display: block; }
+ }
+ @media (min-width: 769px) {
+ .mobile-menu-btn { display: none; }
+ }
+ </style>
+  <meta property="og:title" content="글 목록 (2/2) · kr-pbn-bp-011">
+  <meta property="og:description" content="kr-pbn-bp-011에 올라온 글 목록입니다.">
+  <meta property="og:url" content="https://daegu-web-marketing.pbn-builder.xyz/posts-2.html">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary">
+</head>
+<body>
+  <div class="container">
+    <header>
+ <div class="container nav-row">
+ <a href="/" class="logo">SEO <span>GEEKS</span></a>
+ <nav>
+ <ul>
+ <li><a href="/">Home</a></li>
+ <li><a href="/about">About</a></li>
+ <li><a href="/services">Services</a></li>
+ <li><a href="/blog">Insights</a></li>
+ <li><a href="tel:053-000-0000" style="color: var(--accent-gold);">053-000-0000</a></li>
+ </ul>
+ </nav>
+ <div class="mobile-menu-btn">MENU</div>
+ </div>
+ </header>
+    <main>
+      <h1>글 목록</h1>
+      <p>전체 31개 · 2/2 페이지</p>
+      <ul class="post-list">
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260721-0496.html">대구 SEO 마케팅 업체 시선에서 본 공덕 셔츠룸 추천정보 확인 항목</a>
+        <p class="post-item__summary">웹사이트의 검색 노출을 최적화하는 대구 SEO 마케팅 업체가 핵심 키워드를 선별하듯, 공덕 지역에서 만족스러운 셔츠룸을 찾기 위해서도 명확한 체크리스트가 필요합니다. 특히 이동이 잦은 직장인이나 모</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260721-0497.html">대구 SEO 마케팅 업체 전문가가 알려주는 연남 유흥 추천정보 가이드</a>
+        <p class="post-item__summary">갑작스러운 비즈니스 미팅이나 저녁 모임으로 연남동 거리를 헤매는 초행자들이 많습니다. 낯선 지역에서 적절한 장소를 찾기 위해 대구 SEO 마케팅 업체 컨설턴트들이 제안하는 디지털 검색 방식은 효율적</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260721-0498.html">대구 SEO 마케팅 업체 관점에서 본 마곡 가라오케 추천정보 활용법</a>
+        <p class="post-item__summary">많은 분이 마곡 가라오케 이용은 무조건 심야 시간대가 유리하다고 오해합니다. 하지만 대구 SEO 마케팅 업체 분석에 따르면, 업체마다 피크 타임과 한가한 시간의 서비스 질 차이가 명확하게 존재합니다</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260721-0499.html">대구 SEO 마케팅 업체 추천 마곡 유흥 추천정보와 인원별 룸 선택</a>
+        <p class="post-item__summary">인원이 적을 때와 많을 때의 장소 선택 기준은 명확하게 달라야 합니다. 대구 SEO 마케팅 업체 전략을 세울 때 타깃 규모를 분석하듯, 유흥 모임 또한 참여 인원을 고려한 전략적 장소 선택이 필수적</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260721-0500.html">대구 SEO 마케팅 업체가 제시하는 합정 노래방 추천정보 비교 기준</a>
+        <p class="post-item__summary">다양한 업체들 사이에서 고민하고 있다면 대구 SEO 마케팅 업체에서 강조하는 비교 기준을 참고해 보시기 바랍니다. 단순히 가격만을 고려하기보다는 음향 장비의 퀄리티, 위생 상태, 그리고 직원들의 응</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260722-0141.html">대구 SEO 마케팅 업체 전문가가 본 연남 클럽 추천정보 분석</a>
+        <p class="post-item__summary">정보의 바다 속에서 가치 있는 데이터를 선별하는 작업은 대구 SEO 마케팅 업체 업무뿐만 아니라 일상의 여가를 설계할 때도 매우 중요합니다. 특히 젊음의 열기가 가득한 마포구 연남동 일대의 밤문화를</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260722-0142.html">대구 SEO 마케팅 업체 분석력으로 고른 합정 셔츠룸 추천정보</a>
+        <p class="post-item__summary">합리적인 예산 범위 내에서 만족스러운 저녁 모임을 계획하는 일은 대구 SEO 마케팅 업체 컨설팅을 진행할 때 비용 대비 효과를 따지는 과정과 유사합니다. 마포구 합정 상권은 트렌디한 감각과 실용적인</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260722-0143.html">대구 SEO 마케팅 업체 기획자가 전하는 공덕 가라오케 추천정보</a>
+        <p class="post-item__summary">비즈니스 모임이나 단체 회식을 준비할 때 사전 조율이 어설프면 행사 당일 예기치 못한 낭패를 보기 쉽습니다. 대구 SEO 마케팅 업체 기획에서도 초기 설계가 잘못되면 전체 프로젝트가 방향을 잃듯 모</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260722-0144.html">대구 SEO 마케팅 업체 관점의 꼼꼼한 상수 마사지 추천정보 가이드</a>
+        <p class="post-item__summary">바쁜 일상에서 누적된 피로를 풀기 위해 테라피 매장을 선택할 때는 지리적 요건을 가장 먼저 살펴보아야 합니다. 대구 SEO 마케팅 업체 전문가들이 오프라인 매장의 로컬 최적화를 고민할 때 위치를 중</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260722-0145.html">대구 SEO 마케팅 업체 전문가가 말하는 망원 노래방 추천정보와 이용 수칙</a>
+        <p class="post-item__summary">친구들과 함께 번화가에서 식사를 마친 뒤 흥겨운 분위기를 이어가려 노래방을 찾는 경우가 많습니다. 특히 골목마다 숨겨진 명소가 많은 지역에서는 매장 입구를 찾지 못해 당황하는 상황이 종종 발생하곤 </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260722-0146.html">대구 SEO 마케팅 업체 시선에서 본 홍대 노래방 추천정보와 최적의 시간 선택</a>
+        <p class="post-item__summary">많은 이들이 홍대 인근 노래방은 무조건 밤늦은 시간에만 붐빈다고 오해하곤 합니다. 하지만 실제 유동 인구 데이터를 살펴보면 평일 낮 시간대나 이른 저녁에도 다양한 형태의 이용객이 꾸준히 방문하고 있</p>
+      </li>
+      </ul>
+    <nav class="pager">
+      <a class="pager__link" href="posts.html">1</a>
+      <span class="pager__current">2</span>
+    </nav>
+    </main>
+  </div>
+</body>
+</html>
